@@ -2,6 +2,8 @@
 
 World Spices is a full-stack web application for selling spices online. It follows the MVC design pattern with PHP on the server side, a MySQL database for data storage, and a responsive front-end built with HTML, CSS, JavaScript, and Bootstrap.
 
+**Live Demo:** [https://tabledepices.liveblog365.com/](https://tabledepices.liveblog365.com/)
+
 ## Features
 
 ### Public Area
