@@ -1,0 +1,12 @@
+- Chemins absolus utilisés partout pour éviter les erreurs d'inclusion. Exemple : /TP3/client/public/pages/inscription.html
+- Donc placer le dossier TP3 dans repertoire htdocs et tout devrait marcher.
+- Messages d'erreur ou de succès gérés via toast.
+- J'ai cree un sql a importer manuellement dans php myadmin pour charger les tables aves les bonnes colonnes (\TP3\serveur\includes\bd\tp3.sql). 
+- Il y a aussi un script dans ConnexionSingleton pour rajouter automatiquement les colonnes et le tableau achat, juste au cas ou. Vu que si les tableaux sont pas bien formates, rien ne va marcher.
+- La gestion des epices est faites dans les RequetesAdmin, VueAdmin, etc... pas dans les dossiers epices ou il y a que la liste d'epices afficher pour les visiteurs, le format, etc...
+- J'ai pas fait comme le prof ou il fait un singleton pour chaque controleur, modele. Mon singleton est juste dans la connexion a la bd.
+- J'ai desactive les boutons paniers sur la page index.php, et quand on clique sur le panier de la page, on arrive sur la page de connexion. 
+- Je voulais que le panier marche que sur la page membre.php
+- Et finalement, quand on supprime une epice dans la page adminEpice. Ca supprime aussi tous les achats associes a cette epice. Encore une fois, c'est voulu. 
+- Les images ne se suppriment pas, meme apres avoir supprime les epices. J'ai fait ca car j'utilisais plusieurs photo de la meme epice.
+- Certains choix de design etaient pas tres clairs dans l'enonce donc j'ai pris quelques libertes. 
