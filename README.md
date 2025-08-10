@@ -34,16 +34,6 @@ World Spices is a full-stack web application for selling spices online. It follo
 - **Client-Side Storage** — LocalStorage for cart management
 - **Data Formats** — JSON for server-client communication
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/World-Spices.git
-   ```
-2. Import the provided database schema into MySQL.
-3. Update database connection settings in the configuration file.
-4. Deploy the project to a PHP-enabled server (e.g., Apache with PHP module).
-5. Access the site in your browser.
-
 ## Default Admin Credentials
 - **Email:** `admin@epices.com`
 - **Password:** `12345`
